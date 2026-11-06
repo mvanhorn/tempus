@@ -303,20 +303,19 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:paddingStart="8dp"
-                android:paddingTop="16dp"
-                android:paddingEnd="8dp"
-                android:paddingBottom="8dp">
+                android:orientation="vertical"
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingTop="@dimen/_16sdp"
+                android:paddingEnd="@dimen/_8sdp"
+                android:paddingBottom="@dimen/_8sdp">
 
                 <TextView
                     android:id="@+id/discovery_text_view_refreshable"
                     style="@style/TitleLarge"
-                    android:layout_width="0dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:paddingStart="8dp"
-                    android:paddingEnd="8dp"
+                    android:paddingStart="@dimen/_8sdp"
+                    android:paddingEnd="@dimen/_8sdp"
                     android:text="@string/home_title_discovery" />
 
                 <TextView
@@ -324,8 +323,9 @@
                     style="@style/TitleMedium"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingStart="8dp"
-                    android:paddingEnd="8dp"
+                    android:layout_gravity="end"
+                    android:paddingStart="@dimen/_8sdp"
+                    android:paddingEnd="@dimen/_8sdp"
                     android:text="@string/home_title_discovery_shuffle_all_button" />
             </LinearLayout>
 
@@ -556,20 +556,19 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:paddingStart="8dp"
-                android:paddingTop="16dp"
-                android:paddingEnd="8dp"
-                android:paddingBottom="8dp">
+                android:orientation="vertical"
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingTop="@dimen/_16sdp"
+                android:paddingEnd="@dimen/_8sdp"
+                android:paddingBottom="@dimen/_8sdp">
 
                 <TextView
                     android:id="@+id/starred_tracks_text_view_refreshable"
                     style="@style/TitleLarge"
-                    android:layout_width="0dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:paddingStart="8dp"
-                    android:paddingEnd="8dp"
+                    android:paddingStart="@dimen/_8sdp"
+                    android:paddingEnd="@dimen/_8sdp"
                     android:text="@string/home_title_starred_tracks" />
 
                 <TextView
@@ -577,8 +576,9 @@
                     style="@style/TitleMedium"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingStart="8dp"
-                    android:paddingEnd="8dp"
+                    android:layout_gravity="end"
+                    android:paddingStart="@dimen/_8sdp"
+                    android:paddingEnd="@dimen/_8sdp"
                     android:text="@string/home_title_starred_tracks_see_all_button" />
             </LinearLayout>
 
@@ -606,20 +606,19 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:paddingStart="8dp"
-                android:paddingTop="16dp"
-                android:paddingEnd="8dp"
-                android:paddingBottom="8dp">
+                android:orientation="vertical"
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingTop="@dimen/_16sdp"
+                android:paddingEnd="@dimen/_8sdp"
+                android:paddingBottom="@dimen/_8sdp">
 
                 <TextView
                     android:id="@+id/starred_albums_text_view_refreshable"
                     style="@style/TitleLarge"
-                    android:layout_width="0dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:paddingStart="8dp"
-                    android:paddingEnd="8dp"
+                    android:paddingStart="@dimen/_8sdp"
+                    android:paddingEnd="@dimen/_8sdp"
                     android:text="@string/home_title_starred_albums" />
 
                 <TextView
@@ -627,8 +626,9 @@
                     style="@style/TitleMedium"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingStart="8dp"
-                    android:paddingEnd="8dp"
+                    android:layout_gravity="end"
+                    android:paddingStart="@dimen/_8sdp"
+                    android:paddingEnd="@dimen/_8sdp"
                     android:text="@string/home_title_starred_albums_see_all_button" />
             </LinearLayout>
 
@@ -656,20 +656,19 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:paddingStart="8dp"
-                android:paddingTop="16dp"
-                android:paddingEnd="8dp"
-                android:paddingBottom="8dp">
+                android:orientation="vertical"
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingTop="@dimen/_16sdp"
+                android:paddingEnd="@dimen/_8sdp"
+                android:paddingBottom="@dimen/_8sdp">
 
                 <TextView
                     android:id="@+id/starred_artists_text_view_refreshable"
                     style="@style/TitleLarge"
-                    android:layout_width="0dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:paddingStart="8dp"
-                    android:paddingEnd="8dp"
+                    android:paddingStart="@dimen/_8sdp"
+                    android:paddingEnd="@dimen/_8sdp"
                     android:text="@string/home_title_starred_artists" />
 
                 <TextView
@@ -677,8 +676,9 @@
                     style="@style/TitleMedium"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingStart="8dp"
-                    android:paddingEnd="8dp"
+                    android:layout_gravity="end"
+                    android:paddingStart="@dimen/_8sdp"
+                    android:paddingEnd="@dimen/_8sdp"
                     android:text="@string/home_title_starred_artists_see_all_button" />
             </LinearLayout>
 
@@ -786,20 +786,19 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:paddingStart="8dp"
-                android:paddingTop="16dp"
-                android:paddingEnd="8dp"
-                android:paddingBottom="8dp">
+                android:orientation="vertical"
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingTop="@dimen/_16sdp"
+                android:paddingEnd="@dimen/_8sdp"
+                android:paddingBottom="@dimen/_8sdp">
 
                 <TextView
                     android:id="@+id/most_played_albums_text_view_refreshable"
                     style="@style/TitleLarge"
-                    android:layout_width="0dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:paddingStart="8dp"
-                    android:paddingEnd="8dp"
+                    android:paddingStart="@dimen/_8sdp"
+                    android:paddingEnd="@dimen/_8sdp"
                     android:text="@string/home_title_most_played" />
 
                 <TextView
@@ -807,8 +806,9 @@
                     style="@style/TitleMedium"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingStart="8dp"
-                    android:paddingEnd="8dp"
+                    android:layout_gravity="end"
+                    android:paddingStart="@dimen/_8sdp"
+                    android:paddingEnd="@dimen/_8sdp"
                     android:text="@string/home_title_most_played_see_all_button" />
             </LinearLayout>
 
@@ -838,20 +838,19 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:paddingStart="8dp"
-                android:paddingTop="16dp"
-                android:paddingEnd="8dp"
-                android:paddingBottom="8dp">
+                android:orientation="vertical"
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingTop="@dimen/_16sdp"
+                android:paddingEnd="@dimen/_8sdp"
+                android:paddingBottom="@dimen/_8sdp">
 
                 <TextView
                     android:id="@+id/recently_played_albums_text_view_refreshable"
                     style="@style/TitleLarge"
-                    android:layout_width="0dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:paddingStart="8dp"
-                    android:paddingEnd="8dp"
+                    android:paddingStart="@dimen/_8sdp"
+                    android:paddingEnd="@dimen/_8sdp"
                     android:text="@string/home_title_last_played" />
 
 
@@ -860,8 +859,9 @@
                     style="@style/TitleMedium"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingStart="8dp"
-                    android:paddingEnd="8dp"
+                    android:layout_gravity="end"
+                    android:paddingStart="@dimen/_8sdp"
+                    android:paddingEnd="@dimen/_8sdp"
                     android:text="@string/home_title_last_played_see_all_button" />
 
             </LinearLayout>
@@ -892,20 +892,19 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:paddingStart="8dp"
-                android:paddingTop="16dp"
-                android:paddingEnd="8dp"
-                android:paddingBottom="8dp">
+                android:orientation="vertical"
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingTop="@dimen/_16sdp"
+                android:paddingEnd="@dimen/_8sdp"
+                android:paddingBottom="@dimen/_8sdp">
 
                 <TextView
                     android:id="@+id/recently_added_albums_text_view_refreshable"
                     style="@style/TitleLarge"
-                    android:layout_width="0dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:paddingStart="8dp"
-                    android:paddingEnd="8dp"
+                    android:paddingStart="@dimen/_8sdp"
+                    android:paddingEnd="@dimen/_8sdp"
                     android:text="@string/home_title_recently_added" />
 
 
@@ -914,8 +913,9 @@
                     style="@style/TitleMedium"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingStart="8dp"
-                    android:paddingEnd="8dp"
+                    android:layout_gravity="end"
+                    android:paddingStart="@dimen/_8sdp"
+                    android:paddingEnd="@dimen/_8sdp"
                     android:text="@string/home_title_recently_added_see_all_button" />
 
             </LinearLayout>
@@ -946,20 +946,19 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:paddingStart="8dp"
-                android:paddingTop="16dp"
-                android:paddingEnd="8dp"
-                android:paddingBottom="8dp">
+                android:orientation="vertical"
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingTop="@dimen/_16sdp"
+                android:paddingEnd="@dimen/_8sdp"
+                android:paddingBottom="@dimen/_8sdp">
 
             <TextView
                 android:id="@+id/pinned_playlists_text_view"
                 style="@style/TitleLarge"
-                android:layout_width="0dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:paddingStart="8dp"
-                android:paddingEnd="8dp"
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingEnd="@dimen/_8sdp"
                 android:text="@string/home_title_pinned_playlists" />
 
             <TextView
@@ -967,8 +966,9 @@
                 style="@style/TitleMedium"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingStart="8dp"
-                android:paddingEnd="8dp"
+                android:layout_gravity="end"
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingEnd="@dimen/_8sdp"
                 android:text="@string/library_title_playlist_see_all_button" />
                 </LinearLayout>
 
